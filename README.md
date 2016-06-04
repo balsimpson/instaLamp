@@ -1,7 +1,7 @@
 # instaLamp
 A Lamp that shows the current palette of a user specified instagram post
 
-
+<code>
 thinger
 //testing
 /* Set up over the air updating of the controller */
@@ -41,20 +41,10 @@ palettes
 
     // instagram post palette
 
-void FillLEDsFromPaletteColors(uint8_t colorIndex)
-{
-  uint8_t brightness = 255;
-
-  for (int i = 0; i < NUM_LEDS; i++) {
-    leds[i] = ColorFromPalette(currentPalette, colorIndex, brightness, currentBlending);
-    //    colorIndex += 10;
-  }
-}
-
 
 /* Check and log sensor data */
 sensor data
-//every 30 secs log data
+    //every 30 secs log data
     temp sensor
     ldr
     mic
@@ -83,4 +73,6 @@ sensor data
       dance if shaking detected
 
 
-tweet
+    tweet
+    
+    </code>
