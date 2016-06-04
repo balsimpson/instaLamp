@@ -1,25 +1,24 @@
 # instaLamp
 A Lamp that shows the current palette of a user specified instagram post
 
-<code>
-thinger
-//testing
-/* Set up over the air updating of the controller */
-ota
+	thinger
+	//testing
+	/* Set up over the air updating of the controller */
+	ota
 
-/* Set the mode for the lamp */
-lamp mode
+	/* Set the mode for the lamp */
+	lamp mode
     //palette mode - single hue with slight movement
     //transition mode - a flash to notify transition
-    //notification mode - depending on the notification mode
+    //notification mode - depending on the notification mode	
 
-/* Set the led animation for the lamp */
-led animation
+	/* Set the led animation for the lamp */
+	led animation
     //palette mode
-      change palette periodically
+    change palette periodically
 
     //transition
-      play transition once
+    play transition once
 
     //notification
       service - twitter/instagram/facebook/ifttt
@@ -27,8 +26,8 @@ led animation
 
 
 
-/* Set the palettes */
-palettes
+	/* Set the palettes */
+	palettes
     //create new palettes
 
     //define set palettes
@@ -42,8 +41,8 @@ palettes
     // instagram post palette
 
 
-/* Check and log sensor data */
-sensor data
+	/* Check and log sensor data */
+	sensor data
     //every 30 secs log data
     temp sensor
     ldr
@@ -71,8 +70,4 @@ sensor data
     mq7
     accelerometer
       dance if shaking detected
-
-
     tweet
-    
-    </code>
