@@ -5,6 +5,8 @@ A Lamp that shows the current palette of a user specified instagram post
 	//testing
 	/* Set up over the air updating of the controller */
 
+	changes something
+
 	ota
 
 	/* Set the mode for the lamp */
