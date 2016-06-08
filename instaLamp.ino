@@ -1,6 +1,7 @@
 
 thinger
-//testing
+//testing thinger
+
 /* Set up over the air updating of the controller */
 ota
 
